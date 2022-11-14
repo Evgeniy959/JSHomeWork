@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    -webkit-transition: 2s;
+    transition: 2s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+#timer
+{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    background-color: aqua;
+}
